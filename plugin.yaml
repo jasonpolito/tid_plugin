@@ -1,0 +1,24 @@
+plugin:
+    name: 'pl.tid::lang.plugin.name'
+    description: 'pl.tid::lang.plugin.description'
+    author: PL
+    icon: oc-icon-list
+    homepage: ''
+navigation:
+    tid:
+        label: TID
+        url: pl/tid/listings
+        icon: icon-stethoscope
+        sideMenu:
+            listings:
+                label: Listings
+                url: pl/tid/listings
+                icon: icon-stethoscope
+            cities:
+                label: Cities
+                url: pl/tid/cities
+                icon: icon-map-marker
+            states:
+                label: States
+                url: pl/tid/states
+                icon: icon-flag-o

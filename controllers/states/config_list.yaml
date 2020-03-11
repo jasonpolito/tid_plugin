@@ -1,0 +1,12 @@
+list: $/pl/tid/models/state/columns.yaml
+modelClass: Pl\Tid\Models\State
+title: States
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'pl/tid/states/update/:id'

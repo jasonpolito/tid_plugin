@@ -1,0 +1,10 @@
+name: Cities
+form: $/pl/tid/models/city/fields.yaml
+modelClass: Pl\Tid\Models\City
+defaultRedirect: pl/tid/cities
+create:
+    redirect: 'pl/tid/cities/update/:id'
+    redirectClose: pl/tid/cities
+update:
+    redirect: pl/tid/cities
+    redirectClose: pl/tid/cities

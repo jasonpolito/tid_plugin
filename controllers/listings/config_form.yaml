@@ -1,0 +1,10 @@
+name: Listings
+form: $/pl/tid/models/listing/fields.yaml
+modelClass: Pl\Tid\Models\Listing
+defaultRedirect: pl/tid/listings
+create:
+    redirect: 'pl/tid/listings/update/:id'
+    redirectClose: pl/tid/listings
+update:
+    redirect: pl/tid/listings
+    redirectClose: pl/tid/listings

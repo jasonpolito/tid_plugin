@@ -1,0 +1,32 @@
+fields:
+    title:
+        label: Title
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        type: text
+    hours:
+        label: Hours
+        span: auto
+        type: textarea
+    content:
+        label: Content
+        size: ''
+        mode: tab
+        span: auto
+        type: markdown
+    meta_title:
+        label: 'Meta Title'
+        span: auto
+        type: text
+    meta_description:
+        label: 'Meta Description'
+        span: auto
+        size: ''
+        type: textarea
+    is_featured:
+        label: Featured
+        span: auto
+        type: switch

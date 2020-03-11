@@ -1,0 +1,24 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+        sortable: true
+    slug:
+        label: slug
+        type: text
+        searchable: true
+        sortable: true
+    title:
+        label: title
+        type: text
+        searchable: true
+        sortable: true
+    address:
+        label: address
+        type: text
+        searchable: true
+        sortable: true
+    is_featured:
+        label: Featured
+        type: switch

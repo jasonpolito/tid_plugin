@@ -1,0 +1,10 @@
+name: States
+form: $/pl/tid/models/state/fields.yaml
+modelClass: Pl\Tid\Models\State
+defaultRedirect: pl/tid/states
+create:
+    redirect: 'pl/tid/states/update/:id'
+    redirectClose: pl/tid/states
+update:
+    redirect: pl/tid/states
+    redirectClose: pl/tid/states
